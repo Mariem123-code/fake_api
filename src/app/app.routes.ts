@@ -5,7 +5,7 @@ import { CreateComponent } from './post/create/create.component';
 import { EditComponent } from './post/edit/edit.component';
 import { ViewComponent } from './post/view/view.component';
 
-const routes: Routes = [
+export const routes: Routes = [
   { path: 'post', redirectTo: 'post/index', pathMatch: 'full' },
   { path: 'post/index', component: IndexComponent },
   { path: 'post/create', component: CreateComponent },

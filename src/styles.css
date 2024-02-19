@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+/* Ajoutez cette ligne d'importation */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css');
+
+/* Vos styles personnalisés ci-dessous */
+/* Stylisation du formulaire */
+.container {
+    margin-top: 50px; /* Espacement depuis le haut de la page */
+    width: 50%; /* Largeur du formulaire */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin-bottom: 30px; /* Espacement en bas du titre */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Espacement entre les éléments du formulaire */
+}
+
+/* Stylisation des boutons */
+.btn-secondary {
+    margin-bottom: 20px; /* Espacement en bas du bouton "Back to Index" */
+}
+
+.btn-primary {
+    width: 100%; /* Largeur du bouton "Save" */
+}
+
+/* Stylisation des messages d'erreur */
+.alert-danger {
+    margin-top: 5px; /* Espacement en haut du message d'erreur */
+    font-size: 14px; /* Taille de la police du message d'erreur */
+}
